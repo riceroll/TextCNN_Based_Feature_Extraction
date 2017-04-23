@@ -27,7 +27,7 @@ Get the training options by typing this command:
 python train.py --help
 ```
 
-Train:
+Quick train:
 ```bash
 python train.py
 ```
