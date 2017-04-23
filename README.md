@@ -28,25 +28,24 @@ Get the deploy file, models and test set by typing this command in the root dire
 sh 
 ```
 
+### Training
 Get the training options by typing this command:
-
 ```bash
 ./train.py --help
 ```
 
 Train:
-
 ```bash
 ./train.py
 ```
 
-## Evaluating
-
+### Evaluating
 ```bash
-./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
+run eval.py --eval_train --checkpoint_dir="./models/2017-04-22_01-46-18/checkpoints/" --checkpoint_file="./models/2017-04-22_01-46-18/checkpoints/model-900"
 ```
 
 Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
+
 
 
 ## References
