@@ -1,4 +1,5 @@
-It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
+# CNN_Person_Reidentification
+Re-identify pedestrians with CNN.
 
 ## Task
 Extract the feature of a text.
@@ -35,4 +36,5 @@ Replace the checkpoint dir with the output from the training. To use your own da
 ## References
 
 - [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882)
-- [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1510.03820)
+- [cnn-text-classification-tf](https://github.com/dennybritz/cnn-text-classification-tf)
+- [Tensorflow Module: tf.contrib.learn](https://www.tensorflow.org/api_docs/python/tf/contrib/learn)
