@@ -11,7 +11,7 @@ Academeic articles from fields of computer vision, natural language processing a
 
 - Python>3.5
 - Tensorflow
-- Numpy
+- Numpy-1.11.2
 
 ## Quick Start
 ### Download Data
